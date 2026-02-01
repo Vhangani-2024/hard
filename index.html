@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form id="recycleForm">
+  Name: <input type="text" id="name"><br>
+  Time: <input type="time" id="time"><br>
+  Date: <input type="date" id="date"><br>
+  Source of income: <input type="text" id="income"><br>
+  Bottles: <input type="number" id="bottles"><br>
+  Amount (R): <input type="number" id="amount"><br>
+  stock list 1: <input type="text" id="stock1"><br>
+  stock list 2: <input type="text" id="stock2"><br>
+  Total money: <input type="number" id="total"><br>
+  <button type="submit">Submit</button>
+</form>
+<button id="clearBtn">Clear Data</button>
+
+
+<table id="dataTable">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Time</th>
+      <th>Date</th>
+      <th>item</th>
+      <th>Bottles</th>
+      <th>Amount</th>
+      <th>stock 1:
+        <select id="stock1">
+            <option value="snack">Snack</option>
+            <option value="cigerattes">Cigerattes</option>
+            <option value="sweets">Sweets</option>
+            <option value="biscuits">Biscuits</option>
+             <option value="g-vita">G-vita</option>
+        </select>
+      </th>
+      <th>stock 2:
+        <select id="stock2">
+            <option value="snack">Snack</option>
+            <option value="cigerattes">Cigerattes</option>
+            <option value="sweets">Sweets</option>
+            <option value="biscuits">Biscuits</option>
+             <option value="g-vita">G-vita</option>
+        </select>
+      </th>
+      <th>Total money</th>
+    </tr>
+  </thead>
+
+  
+  <tbody></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
